@@ -1,0 +1,121 @@
+.head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    height: 700px;
+    justify-content: space-around;
+
+    font-weight: 400;
+    font-family: "Segoe UI", Arial, sans-serif;
+
+
+    .logo {
+
+        background: rgb(0, 0, 0);
+        width: 50%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 200px;
+            height: 190px;
+            border-radius: 50%;
+            margin: 40px;
+
+        }
+
+
+        .nav {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            ul {
+                width: 100%;
+                list-style-type: none;
+                text-align: center;
+
+                li {
+                    // width: 90%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+
+                    a {
+                        width: 90%;
+                        padding: 10px 10px;
+                        display: block;
+                        text-align: center;
+                        text-decoration: none;
+                        color: antiquewhite;
+
+                    }
+                }
+
+            }
+
+
+
+
+
+            .a1:hover {
+                background-color: #607d8b;
+            }
+
+            .a2:hover {
+                background-color: #035e34;
+            }
+
+            .a3:hover {
+                background-color: #70828a;
+            }
+
+            .a4:hover {
+                background-color: #603204c5;
+            }
+
+
+
+        }
+    }
+
+
+
+
+
+
+    .about {
+        width: 50%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background: #607d8b;
+
+        h2 {
+
+            text-transform: capitalize;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            // margin-bottom: 220px;
+        }
+
+        p {
+            width: 60%;
+            height: 30px;
+            margin-bottom: 220px;
+
+        }
+    }
+}

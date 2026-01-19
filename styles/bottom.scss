@@ -1,0 +1,59 @@
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 700px;
+    font-weight: 400;
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    .bott {
+        width: 50%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgb(141, 83, 21);
+
+        h2 {
+            margin-bottom: 40px;
+            text-transform: capitalize;
+            
+        }
+        p{
+            margin: 10px;
+            text-transform: capitalize;
+
+        }
+
+    }
+
+    .bot {
+        width: 50%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: grey;
+
+        .contacts {
+            width: 100%;
+            padding: 20px 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+
+
+        }
+    }
+
+}
+
+input {
+    width: 100%;
+    height: 80px;
+
+}
