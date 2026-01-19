@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import './styles/section.scss';
+    @import './styles/head.scss';
+    @import './styles/main.scss';
+    @import './styles/bottom.scss';
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+    section {
+
+        width: 700px;
+
+        .head {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+
+            .logo {
+                width: 100%;
+            }
+
+            .about {
+                width: 100%;
+
+            }
+        }
+
+        .mains {
+            display: none;
+            
+            
+        }
+
+        .bottom {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+
+            .bott {
+                width: 100%;
+
+            }
+
+            .bot {
+                width: 100%;
+
+            }
+        }
+    }
+}
